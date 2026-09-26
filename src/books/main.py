@@ -1,7 +1,7 @@
 from fastapi import Depends, FastAPI, status, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from httpx import post
-from prometheus_fastapi_instrumentator import Instrumentator
+
 
 from . import database
 
