@@ -1,11 +1,11 @@
 import aioredis
-from src.config import Config
+from src.books.config import settings
 
 JTI_EXPIRY = 3600
 
 token_blocklist = aioredis.StrictRedis(
-    host = Config.REDIS_HOST,
-    port = Config.REDIS_PORT,
+    host = settings.REDIS_HOST,
+    port = settings.REDIS_PORT,
     db = 0
 )
 
