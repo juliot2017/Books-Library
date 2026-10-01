@@ -10,7 +10,7 @@ The project provides API endpoints for creating, retrieving, updating, and delet
 - Get a list of books
 - Get a single book
 - Update book information
-- Delete books
+- Delete a book
 - RESTful API architecture
 - Database integration
 - Database migrations with Alembic
